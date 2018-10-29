@@ -1,0 +1,52 @@
+body { /*estilo del body*/
+    text-align: center; 
+    font-family: cursive;
+    color: chartreuse;
+    background-image: url(fondo2.jpg);
+    background-size: 1367px 1000px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 0 0 10px red,
+    0 0 20px red,
+    0 0 30px red,
+    0 0 40px red,
+    0 0 70px red,
+    0 0 80px red,
+    0 0 100px red,
+    0 0 150px red;
+}
+
+p {
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+input[type=submit] { /*estilo del boton*/
+    border: none;
+    font-family: cursive;
+    background: red;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+  }
+
+input[type=button] { /*estilo del boton*/
+    border: none;
+    font-family: cursive;
+    background: red;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+  }
